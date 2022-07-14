@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-image: url(img/portada.jpg);
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+.container-header .navegadorPrincipal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.container-header .navegadorPrincipal a{
+  text-align: center;
+  color: rgb(209, 208, 208);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-header .navegadorPrincipal a:hover{
+  color: white;
+  transform: scale(1.03);
+}
+
+.contenedor-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.contenedorTitulo, .contenedorFotoMartin {
+  width: 100%;
+}
+.foto-martin {
+  width: 30em;
+  border-radius: 50%;
+  border: 15px solid white;
+  margin: 3rem;
+  
+}
+
+.typed {
+  font-family: monospace;
+  font-size: 4rem;
+  color: black;
+}
